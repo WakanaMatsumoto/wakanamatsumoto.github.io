@@ -4,15 +4,75 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Profile</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css">
+
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <h1>Wakana Matsumoto</h1>
+      <div id="profile_img">
+        <img src="img/profile.jpg" alt="プロフィール写真" /></img>
+      </div>
+      <h2>Profile</h2>
+    </header>
+
+    <div id="contents" class="row show-grid">
+  
+      <h3><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>About</h3>
+      <p>
+      バンタンキャリアスクールDTPコースにてDTPデザイン専攻、デジタルハリウッドにてWebデザイン専攻。<br>
+      大手外資系PCメーカーでセールス職からキャリアをスタート、DTP部門に異動して販促物の制作を開始。<br>
+      その後、Web事業やEC事業にキャリアを転換。日系・外資系の双方でeコマース事業責任者を歴任、<br>
+      ECパッケージ会社ではUIデザイナーとして、B2BeコマースプラットフォームのプロダクトUIデザインを行う。<br>
+      売り手と買い手の気持ちが分かるデザイナーとして、IT系企業の販促ページや販促物を中心に実績多数。
+      </p>
+
+      <div class="col-md-6">  
+        <h3><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>Skill</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+            <span class="sr-only"></span>
+            <div>Gragic Skill / Ps,Ai,Xd</div>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+            <span class="sr-only"></span>
+            <div>HTML,HTML5 / CSS,CSS3</div>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+            <span class="sr-only"></span>
+            <div>Javascript / jQuery</div>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+            <span class="sr-only"></span>
+            <div>PHP / Wordpress</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">  
+        <h3><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>Job</h3>
+        <ul class="list-group">
+          <li class="list-group-item">ウェブマーケティング（ソフトウェアパブリッシャー）</li>
+          <li class="list-group-item">ウェブデザイナー（化粧品会社の社内デザイナー）</li>
+          <li class="list-group-item">UIエンジニア（ECサイト開発パッケージ会社）</li>
+          <li class="list-group-item">2014年に起業後、今までの経験とスキルを生かしたデザイン・開発を行っている</li>
+          <li class="list-group-item">2016年5月現在、Railsを勉強中。</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
